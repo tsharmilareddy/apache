@@ -9,6 +9,6 @@ node{
     }
 
     stage ('enable the apache'){
-        sh "ssh root@172.31.90.67 'sudo systemctl enable httpd'"
+        sh "ssh root@172.31.90.67 'sudo systemctl status httpd'"
      }
 }
